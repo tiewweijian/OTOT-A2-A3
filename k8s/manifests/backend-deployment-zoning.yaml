@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nginx:latest
+          image: otot-a1-1-app:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - name: http
               containerPort: 8080

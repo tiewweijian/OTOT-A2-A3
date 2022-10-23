@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: otot-a1-1_app:latest
+          image: otot-a1-1-app
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
